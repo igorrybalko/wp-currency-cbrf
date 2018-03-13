@@ -3,7 +3,7 @@
 Plugin Name: Currency CBRF
 Plugin URI: http://wolfweb.com.ua
 Description: Shows exchange rates USD and EUR
-Version: 0.1.0
+Version: 1.0.1
 Author: Rybalko Igor
 Author URI: http://wolfweb.com.ua
 */

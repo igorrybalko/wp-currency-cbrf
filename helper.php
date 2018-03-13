@@ -1,7 +1,7 @@
 <?php
  /**
  * @author Rybalko Igor
- * @version 1.0
+ * @version 1.0.1
  * @copyright (C) 2018 http://wolfweb.com.ua
  * @license GNU/GPL: http://www.gnu.org/copyleft/gpl.html
  *
@@ -12,7 +12,7 @@ class CurrencyCbrfHelper{
 	private $cacheFile = __DIR__ . '/data.json';
 
 	static private $_instance;
-	private function __conctract(){}
+	private function __construct(){}
 	private function __clone(){}
 	static function getInstance(){
 		if(!self::$_instance){
